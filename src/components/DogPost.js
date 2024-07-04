@@ -1,5 +1,5 @@
 import React from 'react';
-import './DogPost.css'; // Импортируйте CSS файл для стилей
+import './DogPost.css';
 
 const DogPost = ({ dog, onLike, onUnlike, liked }) => {
   const handleLikeClick = () => {

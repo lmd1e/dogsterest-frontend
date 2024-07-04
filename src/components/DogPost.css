@@ -7,10 +7,10 @@
   }
   
   .dog-media {
-    max-width: 300px; /* Максимальная ширина изображения */
-    max-height: 300px; /* Максимальная высота изображения */
-    width: auto; /* Автоматическая ширина */
-    height: auto; /* Автоматическая высота */
-    display: block; /* Чтобы изображение не было inline */
-    margin: 0 auto; /* Центрирование изображения */
+    max-width: 300px; 
+    max-height: 300px; 
+    width: auto; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
   }

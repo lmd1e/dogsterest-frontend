@@ -1,17 +1,17 @@
 .my-masonry-grid {
-    display: -webkit-box; /* Not needed if autoprefixing */
-    display: -ms-flexbox; /* Not needed if autoprefixing */
+    display: -webkit-box; 
+    display: -ms-flexbox; 
     display: flex;
-    margin-left: -16px; /* Adjust as needed */
+    margin-left: -16px; 
     width: auto;
   }
   .my-masonry-grid_column {
-    padding-left: 16px; /* Adjust as needed */
+    padding-left: 16px; 
     background-clip: padding-box;
   }
   
-  .my-masonry-grid_column > div { /* Change div to reference your elements you put in <Masonry> */
-    margin-bottom: 16px; /* Adjust as needed */
+  .my-masonry-grid_column > div { 
+    margin-bottom: 16px; 
   }
   
   .dog-post {

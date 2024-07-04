@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from '../services/api'; // Путь к вашему файлу api.js
+import axios from '../services/api'; 
 import DogPost from './DogPost';
 
 const LikedPosts = () => {
@@ -15,10 +15,10 @@ const LikedPosts = () => {
 
   const handleUnlike = async (id) => {
     try {
-      // Выполняем запрос к API для уменьшения количества лайков
+
       await axios.post(`/dogs/unlike/${id}`);
 
-      // Обновляем состояние и localStorage
+
       const savedLikedDogs = JSON.parse(localStorage.getItem('likedDogs'));
       if (savedLikedDogs[id]) {
         delete savedLikedDogs[id];
