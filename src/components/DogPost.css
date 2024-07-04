@@ -1,0 +1,16 @@
+.dog-post {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .dog-media {
+    max-width: 300px; /* Максимальная ширина изображения */
+    max-height: 300px; /* Максимальная высота изображения */
+    width: auto; /* Автоматическая ширина */
+    height: auto; /* Автоматическая высота */
+    display: block; /* Чтобы изображение не было inline */
+    margin: 0 auto; /* Центрирование изображения */
+  }
