@@ -1,6 +1,6 @@
 # Example
 
-![alt text](image.png)
+![alt text](https://cdn.discordapp.com/attachments/646030601274785795/1258385809736728689/image.png?ex=6687da9c&is=6686891c&hm=1631377d6e35592bcf48ed75bc58d71fc431f4bc7aa346c74ecc725b6a857261)
 
 # Getting Started with Create React App
 
